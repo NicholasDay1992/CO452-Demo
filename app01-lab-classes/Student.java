@@ -17,6 +17,8 @@ public class Student
 
     private String id;
     
+    private Course course;
+    
     // A BSc course has 120 credits, each module has 15 Credits
     private int credits;
 
@@ -62,6 +64,10 @@ public class Student
         credits += additionalPoints;
     }
 
+    public void enrolCourse(Course course)
+    {
+        this.course = course;
+    }
     
     /**
      * Return the number of credit points this student has accumulated.
@@ -87,5 +93,6 @@ public class Student
     public void print()
     {
         System.out.println(name + ", student ID: " + id + ", credits: " + credits);
+        course.print();
     }
 }

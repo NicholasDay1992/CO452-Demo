@@ -1,0 +1,20 @@
+Student nick = new Student("Nick", "51412412");
+Course course1 = new Course("G400", "Computing");
+Course computing = new Course("G400", "Computing");
+nick.enrolCourse(computing);
+nick.print();
+Nick, student ID: 51412412, credits: 0
+computing.print();
+Code number G400
+Title Computing
+Student nick = new Student("Nick", "612521");
+Course computing = new Course("G400", "Computing");
+nick.enrolCourse(computing);
+nick.print();
+Nick, student ID: 612521, credits: 0
+Code number G400
+Title Computing
+nick.print();
+Nick, student ID: 612521, credits: 0
+Code number G400
+Title Computing
